@@ -292,7 +292,7 @@ footer {
 }
 h2 {
     position: relative;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     width: fit-content;
     margin: auto;
 }
@@ -310,4 +310,13 @@ h2::before {
     right: 0;
     background: #f0a589;
     background: linear-gradient(90deg, rgba(235,100,64,1) 0%, rgba(255,179,68,1) 100%);
+}
+
+
+
+
+.products-section,
+footer {
+    border: 4px solid white;
+    border-radius: 40px 10px;
 }
